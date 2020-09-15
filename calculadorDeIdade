@@ -12,6 +12,7 @@ int main()
 	printf("Digite o ano de nascimento\n");
 	scanf("%d", &dataNasc);
 	
+	idade = (2020 - dataNasc);
 	
 	printf("Ei, %s ,este ano voce completa(ou) %d anos!\n", nome, idade);
 	
